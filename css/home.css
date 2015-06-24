@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* Estilos del Home */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300italic, 400italic, 600italic, 400, 300 ,600;
+	background: url(../images/bg-patternt-darkest-blue.png) #0F132D;
+}
+
+footer {
+	padding-top: 40px;
+}
+
+section p {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#calendario-inscripciones {
+    padding: 60px 15px 80px;
+}
+
+#slogan {
+	position: relative;
+	margin: auto;
+	max-width: 900px;
+}
+
+#slogan #btnCalendario {
+	position: absolute;
+	top: -15px;
+	left: -15px;
+}
+
+#slogan #btnInscripciones {
+	position: absolute;
+	bottom: -15px;
+	right: -15px;
+}
+
+#mision {
+    padding: 35px 15px 45px;
+}
+
+#mision .titulo-seccion {
+	margin-bottom: 50px;
+}
+
+#semblanza {
+    padding: 35px 15px 60px;
+}
+
+#semblanza .titulo-seccion {
+	margin-bottom: 38px;
+}
+
+#noticias {
+    padding: 35px 15px 15px;
+}
+
+#noticias .titulo-seccion {
+	margin-bottom: 60px;
+}
+
+#noticias > div {
+	margin-bottom: 35px;
+}
+
+#noticias > div div {
+    text-align: center;
+}
+
+#noticias > div div p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bg-claro {
+	background: url(../images/bg-pattern-blue.png) #424B89;
+}
+
+.btn-primary {
+	padding: 17px 50px;
+	background: transparent url("../images/ver-todo-bttn.png") no-repeat;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: transparent;
+	border: none;
+}
