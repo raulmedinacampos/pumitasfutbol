@@ -53,12 +53,15 @@
       </div>
       
       <!-- Elementos del menú -->
+      <?php
+	  $request = Flight::request();
+	  ?>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-          <li><a href="/calendario">Calendario</a></li>
-          <li><a href="/inscripciones">Inscripciones</a></li>
-          <li><a href="/noticias">Noticias</a></li>
+          <li <?php echo ($request->url == '/') ? 'class="active"' : ''; ?>><a href="/">Home <span class="sr-only">(current)</span></a></li>
+          <li <?php echo ($request->url == '/calendario') ? 'class="active"' : ''; ?>><a href="/calendario">Calendario</a></li>
+          <li <?php echo ($request->url == '/inscripciones') ? 'class="active"' : ''; ?>><a href="/inscripciones">Inscripciones</a></li>
+          <li <?php echo ($request->url == '/noticias') ? 'class="active"' : ''; ?>><a href="/noticias">Noticias</a></li>
         </ul>
       </div>
       <!-- Fin elementos del menú --> 
