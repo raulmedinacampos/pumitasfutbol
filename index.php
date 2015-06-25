@@ -25,7 +25,7 @@ Flight::route('/inscripciones/', function() {
 /* Semblanza */
 Flight::route('/semblanza/', function() {
 	Flight::render('header');
-	echo "aaaaa";
+	Flight::render('semblanza');
 	Flight::render('footer');
 });
 
