@@ -32,7 +32,13 @@ Flight::route('/semblanza/', function() {
 /* Noticias */
 Flight::route('/noticias/', function() {
 	Flight::render('header');
-	echo "aaaaa";
+	Flight::render('noticias');
+	Flight::render('footer');
+});
+
+Flight::route('/noticia/', function() {
+	Flight::render('header');
+	Flight::render('noticia-detalle');
 	Flight::render('footer');
 });
 
