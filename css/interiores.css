@@ -20,6 +20,38 @@ p {
 	margin-bottom: 25px;
 }
 
+.calendario {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.calendario .titulo-ligas {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.calendario ul {
+	padding-left: 30px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.calendario ul li {
+	margin-bottom: 10px;
+}
+
+.calendario ul li a, .calendario ul li a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.calendario ul li.active:before {
+    position: absolute;
+	margin-left: -26px;
+	content: url(../images/arrow-leagues-icon.png);
+}
+
 .dorado {
 	color: #C89E57;
 }

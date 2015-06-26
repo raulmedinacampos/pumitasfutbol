@@ -11,7 +11,7 @@ Flight::route('/', function() {
 /* Calendario */
 Flight::route('/calendario/', function() {
 	Flight::render('header');
-	echo "aaaaa";
+	Flight::render('calendario');
 	Flight::render('footer');
 });
 
