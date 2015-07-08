@@ -52,6 +52,113 @@ p {
 	content: url(../images/arrow-leagues-icon.png);
 }
 
+.calendario .fechas-calendario {
+	position: relative;
+	padding: 0;
+	width: 630px;
+	height: 522px;
+	background-color: #0F132E;
+}
+
+.calendario .fechas-calendario img.fondo {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.calendario .fechas-calendario .header {
+	position: relative;
+	font-size: 11px;
+	z-index: 20;
+}
+
+.calendario .fechas-calendario .header img {
+	width: 125px;
+	margin: 10px 0 0 10px;
+}
+
+.calendario .fechas-calendario .header p {
+	margin: 0;
+}
+
+.calendario .fechas-calendario .header div:last-of-type {
+	width: 48%;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.calendario .fechas-calendario .tabla {
+	position: relative;
+	margin-top: 10px;
+	font-size: 9px;
+	z-index: 20;
+}
+
+.calendario .fechas-calendario .tabla table {
+	width: 90%;
+	margin: auto;
+	font-weight: lighter;
+}
+
+.calendario .fechas-calendario .tabla table th {
+	color: #C89E57;
+	font-size: 8px;
+	border-bottom: 1px solid #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.calendario .fechas-calendario .tabla table td {
+	padding-bottom: 4px;
+	border-right: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+.calendario .fechas-calendario .tabla table tr:first-of-type th {
+	padding-bottom: 6px;
+}
+
+.calendario .fechas-calendario .tabla table tr:nth-of-type(2) td {
+	padding-top: 4px;
+}
+
+.calendario .fechas-calendario .tabla table tr:last-of-type td {
+	padding-bottom: 0;
+}
+
+.calendario .fechas-calendario .tabla table td:first-of-type {
+	width: 70px;
+}
+
+.calendario .fechas-calendario .tabla table td:last-of-type {
+	border-right: none;
+}
+
+.calendario .fechas-calendario .footer {
+	position: relative;
+	width: 98%;
+	margin: 30px auto 0;
+	font-size: 9px;
+	z-index: 20;
+}
+
+.calendario .fechas-calendario .footer .dorado {
+	margin-bottom: 7px;
+	font-size: 8px;
+}
+
+.calendario .fechas-calendario .footer div {
+	text-align: center;
+}
+
+.calendario .fechas-calendario .footer div:first-of-type {
+	text-align: left;
+}
+
+.calendario .fechas-calendario .footer div:last-of-type {
+	text-align: right;
+}
+
 .dorado {
 	color: #C89E57;
 }
