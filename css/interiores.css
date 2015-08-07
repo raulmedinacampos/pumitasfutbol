@@ -21,13 +21,22 @@ p {
 }
 
 .calendario {
+	position: relative;
 	margin-top: 30px;
 	margin-bottom: 60px;
+	min-width:991px;
 }
 
 .calendario .titulo-ligas {
 	display: block;
 	margin-bottom: 12px;
+}
+
+.calendario .indicador {
+    position: absolute;
+    top: 34px;
+    left: 20px;
+	transition: top 0.5s;
 }
 
 .calendario ul {
