@@ -1,7 +1,7 @@
 <?php
 require 'flight/Flight.php';
 
-/* Home */
+/* Home  */
 Flight::route('/', function() {
 	Flight::render('header');
 	Flight::render('home');
